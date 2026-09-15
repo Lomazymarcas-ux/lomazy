@@ -1128,6 +1128,9 @@ section {
 
 .cert-img {
   width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: 8px;
   display: block;
   border: 2px solid rgba(255,255,255,0.08);
