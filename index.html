@@ -1,645 +1,1217 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<title>LOMAZY — Registro de Marcas no INPI | Proteja Sua Marca</title>
-<meta name="description" content="Verifique gratuitamente se seu nome de marca pode ser registrado no INPI. A Lomazy cuida de todo o processo de registro de marcas no Brasil com agilidade e segurança.">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://lomazy.com.br/">
+    <title>LOMAZY — Registro de Marcas no INPI | Proteja Sua Marca</title>
+    <meta
+      name="description"
+      content="Verifique gratuitamente se seu nome de marca pode ser registrado no INPI. A Lomazy cuida de todo o processo de registro de marcas no Brasil com agilidade e segurança."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://lomazy.com.br/" />
 
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://lomazy.com.br/">
-<meta property="og:title" content="LOMAZY — Registro de Marcas no INPI | Proteja Sua Marca">
-<meta property="og:description" content="Verifique gratuitamente se seu nome de marca pode ser registrado no INPI. Registro rápido, seguro e sem burocracia.">
-<meta property="og:image" content="https://lomazy.com.br/images/logo.png">
-<meta property="og:locale" content="pt_BR">
-<meta property="og:site_name" content="Lomazy">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lomazy.com.br/" />
+    <meta
+      property="og:title"
+      content="LOMAZY — Registro de Marcas no INPI | Proteja Sua Marca"
+    />
+    <meta
+      property="og:description"
+      content="Verifique gratuitamente se seu nome de marca pode ser registrado no INPI. Registro rápido, seguro e sem burocracia."
+    />
+    <meta property="og:image" content="https://lomazy.com.br/images/logo.png" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Lomazy" />
 
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="LOMAZY — Registro de Marcas no INPI">
-<meta name="twitter:description" content="Verifique gratuitamente se seu nome de marca pode ser registrado no INPI.">
-<meta name="twitter:image" content="https://lomazy.com.br/images/logo.png">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="LOMAZY — Registro de Marcas no INPI" />
+    <meta
+      name="twitter:description"
+      content="Verifique gratuitamente se seu nome de marca pode ser registrado no INPI."
+    />
+    <meta
+      name="twitter:image"
+      content="https://lomazy.com.br/images/logo.png"
+    />
 
-<!-- JSON-LD Structured Data -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LegalService",
-  "name": "Lomazy",
-  "url": "https://lomazy.com.br",
-  "logo": "https://lomazy.com.br/images/logo.png",
-  "description": "Plataforma especializada em registro de marcas no INPI Brasil. Verificação gratuita de disponibilidade e acompanhamento completo do processo.",
-  "areaServed": {
-    "@type": "Country",
-    "name": "Brasil"
-  },
-  "serviceType": "Registro de Marcas",
-  "availableChannel": {
-    "@type": "ServiceChannel",
-    "serviceUrl": "https://lomazy.com.br",
-    "servicePhone": "+5581995689180"
-  },
-  "sameAs": []
-}
-</script>
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "Lomazy",
+        "url": "https://lomazy.com.br",
+        "logo": "https://lomazy.com.br/images/logo.png",
+        "description": "Plataforma especializada em registro de marcas no INPI Brasil. Verificação gratuita de disponibilidade e acompanhamento completo do processo.",
+        "areaServed": {
+          "@type": "Country",
+          "name": "Brasil"
+        },
+        "serviceType": "Registro de Marcas",
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://lomazy.com.br",
+          "servicePhone": "+5581995689180"
+        },
+        "sameAs": []
+      }
+    </script>
 
-<!-- Favicons -->
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-192.png">
-<link rel="apple-touch-icon" sizes="192x192" href="favicon-192.png">
-<link rel="icon" type="image/png" sizes="512x512" href="favicon-512.png">
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-192.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="favicon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="favicon-512.png" />
 
-<!-- Preload recursos críticos -->
-<link rel="preload" as="image" href="images/logo.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20260918">
+    <!-- Preload recursos críticos -->
+    <link rel="preload" as="image" href="images/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=20260918" />
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18011864797"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'AW-18011864797');
-</script>
-</head>
-<body>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-18011864797"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "AW-18011864797");
+    </script>
+  </head>
+  <body>
+    <!-- Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
 
-<!-- Background Canvas -->
-<canvas id="bg-canvas"></canvas>
-
-<!-- ===========================
+    <!-- ===========================
      NAVBAR
 =========================== -->
-<nav id="navbar">
-  <a href="#" class="logo">
-    <!-- Substitua o src abaixo pelo caminho da sua logo -->
-    <img src="images/logo.png" alt="Lomazy" class="logo-img">
-  </a>
-  <a href="#hero" class="nav-cta">Verificar minha marca</a>
-</nav>
+    <nav id="navbar">
+      <a href="#" class="logo">
+        <!-- Substitua o src abaixo pelo caminho da sua logo -->
+        <img src="images/logo.png" alt="Lomazy" class="logo-img" />
+      </a>
+      <a href="#hero" class="nav-cta">Verificar minha marca</a>
+    </nav>
 
-<!-- ===========================
+    <!-- ===========================
      HERO
 =========================== -->
-<section id="hero">
-  <!-- HERO STAR OF DAVID — premium geometric background -->
-  <canvas id="hero-canvas"></canvas>
-  <div class="hero-star-wrap" id="hero-star-wrap">
-    <svg class="hero-star-svg" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <!-- Diffuse glow center -->
-        <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-          <stop offset="0%"   stop-color="#ff6a00" stop-opacity="0.12"/>
-          <stop offset="55%"  stop-color="#ff6a00" stop-opacity="0.03"/>
-          <stop offset="100%" stop-color="#ff6a00" stop-opacity="0"/>
-        </radialGradient>
-        <!-- Soft line glow filter -->
-        <filter id="lineGlow" x="-30%" y="-30%" width="160%" height="160%">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
-          <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-        </filter>
-        <!-- Strong center glow -->
-        <filter id="centerGlowF" x="-100%" y="-100%" width="300%" height="300%">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
-          <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-        </filter>
-        <!-- Energy particle glow -->
-        <filter id="particleGlow" x="-200%" y="-200%" width="500%" height="500%">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
-          <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-        </filter>
-      </defs>
+    <section id="hero">
+      <!-- HERO STAR OF DAVID — premium geometric background -->
+      <canvas id="hero-canvas"></canvas>
+      <div class="hero-star-wrap" id="hero-star-wrap">
+        <svg
+          class="hero-star-svg"
+          viewBox="0 0 800 800"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <!-- Diffuse glow center -->
+            <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#ff6a00" stop-opacity="0.12" />
+              <stop offset="55%" stop-color="#ff6a00" stop-opacity="0.03" />
+              <stop offset="100%" stop-color="#ff6a00" stop-opacity="0" />
+            </radialGradient>
+            <!-- Soft line glow filter -->
+            <filter id="lineGlow" x="-30%" y="-30%" width="160%" height="160%">
+              <feGaussianBlur
+                in="SourceGraphic"
+                stdDeviation="2.5"
+                result="blur"
+              />
+              <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+              </feMerge>
+            </filter>
+            <!-- Strong center glow -->
+            <filter
+              id="centerGlowF"
+              x="-100%"
+              y="-100%"
+              width="300%"
+              height="300%"
+            >
+              <feGaussianBlur
+                in="SourceGraphic"
+                stdDeviation="8"
+                result="blur"
+              />
+              <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+              </feMerge>
+            </filter>
+            <!-- Energy particle glow -->
+            <filter
+              id="particleGlow"
+              x="-200%"
+              y="-200%"
+              width="500%"
+              height="500%"
+            >
+              <feGaussianBlur
+                in="SourceGraphic"
+                stdDeviation="4"
+                result="blur"
+              />
+              <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+              </feMerge>
+            </filter>
+          </defs>
 
-      <!-- === ATMOSPHERE === -->
-      <circle cx="400" cy="400" r="400" fill="url(#centerGlow)"/>
-      <!-- === STAR OF DAVID — BASE LINES (very subtle) === -->
-      <!-- Triangle up -->
-      <polygon id="tri-up"
-        points="400,72 672,532 128,532"
-        fill="none" stroke="#ff6a00" stroke-width="0.8" opacity="0.1"/>
-      <!-- Triangle down -->
-      <polygon id="tri-down"
-        points="400,728 128,268 672,268"
-        fill="none" stroke="#ff6a00" stroke-width="0.8" opacity="0.1"/>
+          <!-- === ATMOSPHERE === -->
+          <circle cx="400" cy="400" r="400" fill="url(#centerGlow)" />
+          <!-- === STAR OF DAVID — BASE LINES (very subtle) === -->
+          <!-- Triangle up -->
+          <polygon
+            id="tri-up"
+            points="400,72 672,532 128,532"
+            fill="none"
+            stroke="#ff6a00"
+            stroke-width="0.8"
+            opacity="0.1"
+          />
+          <!-- Triangle down -->
+          <polygon
+            id="tri-down"
+            points="400,728 128,268 672,268"
+            fill="none"
+            stroke="#ff6a00"
+            stroke-width="0.8"
+            opacity="0.1"
+          />
 
-      <!-- Inner triangles — slightly more visible -->
-      <polygon
-        points="400,168 592,492 208,492"
-        fill="none" stroke="#ff6a00" stroke-width="0.5" opacity="0.07"/>
-      <polygon
-        points="400,632 208,308 592,308"
-        fill="none" stroke="#ff6a00" stroke-width="0.5" opacity="0.07"/>
+          <!-- Inner triangles — slightly more visible -->
+          <polygon
+            points="400,168 592,492 208,492"
+            fill="none"
+            stroke="#ff6a00"
+            stroke-width="0.5"
+            opacity="0.07"
+          />
+          <polygon
+            points="400,632 208,308 592,308"
+            fill="none"
+            stroke="#ff6a00"
+            stroke-width="0.5"
+            opacity="0.07"
+          />
 
-      <!-- === STAR OF DAVID — GLOWING LINES (layer 2) === -->
-      <!-- Triangle up glow -->
-      <polygon
-        points="400,72 672,532 128,532"
-        fill="none" stroke="#ff6a00" stroke-width="1.6" opacity="0.13"
-        filter="url(#lineGlow)"/>
-      <!-- Triangle down glow -->
-      <polygon
-        points="400,728 128,268 672,268"
-        fill="none" stroke="#ff6a00" stroke-width="1.6" opacity="0.13"
-        filter="url(#lineGlow)"/>
-      <!-- === ENERGY PARTICLES — animated light traveling the edges === -->
-      <!-- Triangle up — edge 1: top to bottom-right -->
-      <line class="star-edge" x1="400" y1="72" x2="672" y2="532"
-        stroke="#ff8533" stroke-width="3" stroke-linecap="round"
-        filter="url(#particleGlow)"
-        style="--dur:8s; --delay:0s"/>
-      <!-- Triangle up — edge 2: bottom-right to bottom-left -->
-      <line class="star-edge" x1="672" y1="532" x2="128" y2="532"
-        stroke="#ff8533" stroke-width="3" stroke-linecap="round"
-        filter="url(#particleGlow)"
-        style="--dur:8s; --delay:2.6s"/>
-      <!-- Triangle up — edge 3: bottom-left to top -->
-      <line class="star-edge" x1="128" y1="532" x2="400" y2="72"
-        stroke="#ff8533" stroke-width="3" stroke-linecap="round"
-        filter="url(#particleGlow)"
-        style="--dur:8s; --delay:5.2s"/>
+          <!-- === STAR OF DAVID — GLOWING LINES (layer 2) === -->
+          <!-- Triangle up glow -->
+          <polygon
+            points="400,72 672,532 128,532"
+            fill="none"
+            stroke="#ff6a00"
+            stroke-width="1.6"
+            opacity="0.13"
+            filter="url(#lineGlow)"
+          />
+          <!-- Triangle down glow -->
+          <polygon
+            points="400,728 128,268 672,268"
+            fill="none"
+            stroke="#ff6a00"
+            stroke-width="1.6"
+            opacity="0.13"
+            filter="url(#lineGlow)"
+          />
+          <!-- === ENERGY PARTICLES — animated light traveling the edges === -->
+          <!-- Triangle up — edge 1: top to bottom-right -->
+          <line
+            class="star-edge"
+            x1="400"
+            y1="72"
+            x2="672"
+            y2="532"
+            stroke="#ff8533"
+            stroke-width="3"
+            stroke-linecap="round"
+            filter="url(#particleGlow)"
+            style="--dur: 8s; --delay: 0s"
+          />
+          <!-- Triangle up — edge 2: bottom-right to bottom-left -->
+          <line
+            class="star-edge"
+            x1="672"
+            y1="532"
+            x2="128"
+            y2="532"
+            stroke="#ff8533"
+            stroke-width="3"
+            stroke-linecap="round"
+            filter="url(#particleGlow)"
+            style="--dur: 8s; --delay: 2.6s"
+          />
+          <!-- Triangle up — edge 3: bottom-left to top -->
+          <line
+            class="star-edge"
+            x1="128"
+            y1="532"
+            x2="400"
+            y2="72"
+            stroke="#ff8533"
+            stroke-width="3"
+            stroke-linecap="round"
+            filter="url(#particleGlow)"
+            style="--dur: 8s; --delay: 5.2s"
+          />
 
-      <!-- Triangle down — edge 1 -->
-      <line class="star-edge" x1="400" y1="728" x2="672" y2="268"
-        stroke="#ff6a00" stroke-width="3" stroke-linecap="round"
-        filter="url(#particleGlow)"
-        style="--dur:9s; --delay:1.5s"/>
-      <!-- Triangle down — edge 2 -->
-      <line class="star-edge" x1="672" y1="268" x2="128" y2="268"
-        stroke="#ff6a00" stroke-width="3" stroke-linecap="round"
-        filter="url(#particleGlow)"
-        style="--dur:9s; --delay:4.5s"/>
-      <!-- Triangle down — edge 3 -->
-      <line class="star-edge" x1="128" y1="268" x2="400" y2="728"
-        stroke="#ff6a00" stroke-width="3" stroke-linecap="round"
-        filter="url(#particleGlow)"
-        style="--dur:9s; --delay:7.5s"/>
+          <!-- Triangle down — edge 1 -->
+          <line
+            class="star-edge"
+            x1="400"
+            y1="728"
+            x2="672"
+            y2="268"
+            stroke="#ff6a00"
+            stroke-width="3"
+            stroke-linecap="round"
+            filter="url(#particleGlow)"
+            style="--dur: 9s; --delay: 1.5s"
+          />
+          <!-- Triangle down — edge 2 -->
+          <line
+            class="star-edge"
+            x1="672"
+            y1="268"
+            x2="128"
+            y2="268"
+            stroke="#ff6a00"
+            stroke-width="3"
+            stroke-linecap="round"
+            filter="url(#particleGlow)"
+            style="--dur: 9s; --delay: 4.5s"
+          />
+          <!-- Triangle down — edge 3 -->
+          <line
+            class="star-edge"
+            x1="128"
+            y1="268"
+            x2="400"
+            y2="728"
+            stroke="#ff6a00"
+            stroke-width="3"
+            stroke-linecap="round"
+            filter="url(#particleGlow)"
+            style="--dur: 9s; --delay: 7.5s"
+          />
 
-      <!-- === VERTEX GLOW DOTS — subtle halos at star points === -->
-      <circle cx="400" cy="72"  r="4" fill="#ff6a00" opacity="0.25" filter="url(#particleGlow)"/>
-      <circle cx="672" cy="532" r="4" fill="#ff6a00" opacity="0.25" filter="url(#particleGlow)"/>
-      <circle cx="128" cy="532" r="4" fill="#ff6a00" opacity="0.25" filter="url(#particleGlow)"/>
-      <circle cx="400" cy="728" r="4" fill="#ff6a00" opacity="0.25" filter="url(#particleGlow)"/>
-      <circle cx="672" cy="268" r="4" fill="#ff6a00" opacity="0.25" filter="url(#particleGlow)"/>
-      <circle cx="128" cy="268" r="4" fill="#ff6a00" opacity="0.25" filter="url(#particleGlow)"/>
-
-    </svg>
-  </div>
-
-  <div class="hero-layout">
-  <div class="hero-left">
-  <div class="hero-badge">
-    <span class="hero-badge-dot"></span>
-    Plataforma de registro de marcas — INPI Brasil
-  </div>
-
-  <h1>Proteja sua marca antes que<br><em>alguém registre primeiro.</em></h1>
-
-  <p class="hero-sub">Verifique gratuitamente se o nome da sua marca pode ser registrado no INPI.</p>
-  </div><!-- /hero-left -->
-
-  <div class="hero-right">
-  <!-- SIMULADOR: 3 etapas -->
-  <div class="search-box" id="simulator">
-
-    <!-- ETAPA 1: Formulário de captura -->
-    <div id="stage-form">
-      <div class="sim-header">
-        <p class="sim-step-label">Preencha para verificar gratuitamente</p>
+          <!-- === VERTEX GLOW DOTS — subtle halos at star points === -->
+          <circle
+            cx="400"
+            cy="72"
+            r="4"
+            fill="#ff6a00"
+            opacity="0.25"
+            filter="url(#particleGlow)"
+          />
+          <circle
+            cx="672"
+            cy="532"
+            r="4"
+            fill="#ff6a00"
+            opacity="0.25"
+            filter="url(#particleGlow)"
+          />
+          <circle
+            cx="128"
+            cy="532"
+            r="4"
+            fill="#ff6a00"
+            opacity="0.25"
+            filter="url(#particleGlow)"
+          />
+          <circle
+            cx="400"
+            cy="728"
+            r="4"
+            fill="#ff6a00"
+            opacity="0.25"
+            filter="url(#particleGlow)"
+          />
+          <circle
+            cx="672"
+            cy="268"
+            r="4"
+            fill="#ff6a00"
+            opacity="0.25"
+            filter="url(#particleGlow)"
+          />
+          <circle
+            cx="128"
+            cy="268"
+            r="4"
+            fill="#ff6a00"
+            opacity="0.25"
+            filter="url(#particleGlow)"
+          />
+        </svg>
       </div>
-      <div class="form-row">
-        <div class="form-group">
-          <label>Nome</label>
-          <input type="text" id="f-nome" placeholder="Seu nome completo" autocomplete="name" name="name">
-        </div>
-        <div class="form-group">
-          <label>WhatsApp</label>
-          <input type="tel" id="f-whats" placeholder="(11) 99999-9999" autocomplete="tel" name="tel" maxlength="15" inputmode="numeric">
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="form-group">
-          <label>Nome da marca</label>
-          <input type="text" id="f-marca" placeholder="Nome que deseja registrar">
-        </div>
-        <div class="form-group">
-          <label>Área de atuação</label>
-          <select id="f-area">
-            <option value="" disabled selected>Selecione sua área</option>
-            <option>Moda e vestuário</option>
-            <option>Alimentação e bebidas</option>
-            <option>Tecnologia e software</option>
-            <option>Saúde e beleza</option>
-            <option>Educação</option>
-            <option>E-commerce</option>
-            <option>Serviços profissionais</option>
-            <option>Indústria e comércio</option>
-            <option>Entretenimento</option>
-            <option>Outra</option>
-          </select>
-        </div>
-      </div>
-      <button class="form-submit" onclick="submitLeadForm()">Verificar disponibilidade da minha marca</button>
-      <p class="form-privacy">Seus dados são usados apenas para enviar sua análise. Sem spam.</p>
-    </div>
 
-    <!-- ETAPA 2: Loading animado -->
-    <div id="stage-loading" style="display:none">
-      <div class="sim-header">
-        <p class="sim-step-label">Consultando a base do INPI</p>
-        <p class="sim-step-title">Analisando <span id="loading-brand-name"></span>...</p>
-      </div>
-      <div class="search-loading" style="display:block; margin-top:16px">
-        <div class="loading-step" id="step1">
-          <div class="loading-spinner" id="spinner1"></div>
-          <div class="loading-check" id="check1"></div>
-          Consultando base do INPI...
-        </div>
-        <div class="loading-step" id="step2">
-          <div class="loading-spinner" id="spinner2" style="display:none"></div>
-          <div class="loading-check" id="check2"></div>
-          Verificando registros idênticos...
-        </div>
-        <div class="loading-step" id="step3">
-          <div class="loading-spinner" id="spinner3" style="display:none"></div>
-          <div class="loading-check" id="check3"></div>
-          Analisando marcas semelhantes...
-        </div>
-      </div>
-    </div>
+      <div class="hero-layout">
+        <div class="hero-left">
+          <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            Plataforma de registro de marcas — INPI Brasil
+          </div>
 
-    <!-- ETAPA 3: Resultado -->
-    <div id="stage-result" style="display:none">
-      <div class="search-result" id="search-result">
-        <div class="result-top">
-          <div class="result-badge" id="result-badge"></div>
-          <span class="result-brand-tag">Marca: <strong id="result-brand-tag"></strong></span>
+          <h1>
+            Proteja sua marca antes que<br /><em>alguém registre primeiro.</em>
+          </h1>
+
+          <p class="hero-sub">
+            Verifique gratuitamente se o nome da sua marca pode ser registrado
+            no INPI.
+          </p>
         </div>
-        <div class="result-title" id="result-title"></div>
-        <div class="result-note" id="result-note"></div>
-        <div class="result-actions">
-          <a id="result-whats-btn" href="https://wa.me/5581995689180" target="_blank" class="result-cta-btn result-cta-primary">Falar com especialista no WhatsApp</a>
-          <button class="result-cta-btn result-cta-secondary" onclick="resetSimulator()">Verificar outra marca</button>
+        <!-- /hero-left -->
+
+        <div class="hero-right">
+          <!-- SIMULADOR: 3 etapas -->
+          <div class="search-box" id="simulator">
+            <!-- ETAPA 1: Formulário de captura -->
+            <div id="stage-form">
+              <div class="sim-header">
+                <p class="sim-step-label">
+                  Preencha para verificar gratuitamente
+                </p>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Nome</label>
+                  <input
+                    type="text"
+                    id="f-nome"
+                    placeholder="Seu nome completo"
+                    autocomplete="name"
+                    name="name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>WhatsApp</label>
+                  <input
+                    type="tel"
+                    id="f-whats"
+                    placeholder="(11) 99999-9999"
+                    autocomplete="tel"
+                    name="tel"
+                    maxlength="15"
+                    inputmode="numeric"
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Nome da marca</label>
+                  <input
+                    type="text"
+                    id="f-marca"
+                    placeholder="Nome que deseja registrar"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Área de atuação</label>
+                  <select id="f-area">
+                    <option value="" disabled selected>
+                      Selecione sua área
+                    </option>
+                    <option>Moda e vestuário</option>
+                    <option>Alimentação e bebidas</option>
+                    <option>Tecnologia e software</option>
+                    <option>Saúde e beleza</option>
+                    <option>Educação</option>
+                    <option>E-commerce</option>
+                    <option>Serviços profissionais</option>
+                    <option>Indústria e comércio</option>
+                    <option>Entretenimento</option>
+                    <option>Outra</option>
+                  </select>
+                </div>
+              </div>
+              <button class="form-submit" onclick="submitLeadForm()">
+                Verificar disponibilidade da minha marca
+              </button>
+              <p class="form-privacy">
+                Seus dados são usados apenas para enviar sua análise. Sem spam.
+              </p>
+            </div>
+
+            <!-- ETAPA 2: Loading animado -->
+            <div id="stage-loading" style="display: none">
+              <div class="sim-header">
+                <p class="sim-step-label">Consultando a base do INPI</p>
+                <p class="sim-step-title">
+                  Analisando <span id="loading-brand-name"></span>...
+                </p>
+              </div>
+              <div
+                class="search-loading"
+                style="display: block; margin-top: 16px"
+              >
+                <div class="loading-step" id="step1">
+                  <div class="loading-spinner" id="spinner1"></div>
+                  <div class="loading-check" id="check1"></div>
+                  Consultando base do INPI...
+                </div>
+                <div class="loading-step" id="step2">
+                  <div
+                    class="loading-spinner"
+                    id="spinner2"
+                    style="display: none"
+                  ></div>
+                  <div class="loading-check" id="check2"></div>
+                  Verificando registros idênticos...
+                </div>
+                <div class="loading-step" id="step3">
+                  <div
+                    class="loading-spinner"
+                    id="spinner3"
+                    style="display: none"
+                  ></div>
+                  <div class="loading-check" id="check3"></div>
+                  Analisando marcas semelhantes...
+                </div>
+              </div>
+            </div>
+
+            <!-- ETAPA 3: Resultado -->
+            <div id="stage-result" style="display: none">
+              <div class="search-result" id="search-result">
+                <div class="result-top">
+                  <div class="result-badge" id="result-badge"></div>
+                  <span class="result-brand-tag"
+                    >Marca: <strong id="result-brand-tag"></strong
+                  ></span>
+                </div>
+                <div class="result-title" id="result-title"></div>
+                <div class="result-note" id="result-note"></div>
+                <div class="result-actions">
+                  <a
+                    id="result-whats-btn"
+                    href="https://wa.me/5581995689180"
+                    target="_blank"
+                    class="result-cta-btn result-cta-primary"
+                    >Falar com especialista no WhatsApp</a
+                  >
+                  <button
+                    class="result-cta-btn result-cta-secondary"
+                    onclick="resetSimulator()"
+                  >
+                    Verificar outra marca
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /search-box -->
         </div>
+        <!-- /hero-right -->
       </div>
-    </div>
+      <!-- /hero-layout -->
 
-  </div><!-- /search-box -->
-  </div><!-- /hero-right -->
-  </div><!-- /hero-layout -->
-
-  <p class="hero-stat">Mais de <strong>382.000 pedidos</strong> de registro foram feitos no INPI em 2024.</p>
-</section>
-<!-- ===========================
+      <p class="hero-stat">
+        Mais de <strong>382.000 pedidos</strong> de registro foram feitos no
+        INPI em 2024.
+      </p>
+    </section>
+    <!-- ===========================
      WHY REGISTER
 =========================== -->
-<section id="why">
-  <div class="section-inner">
-    <div class="fade-in">
-      <p class="section-label">Por que registrar</p>
-      <h2 class="section-title">Ter CNPJ não é suficiente.<br>Só o INPI garante a exclusividade.</h2>
-      <p class="section-sub">Sem o registro, qualquer concorrente pode usar seu nome e você não terá respaldo legal para impedir.</p>
-    </div>
+    <section id="why">
+      <div class="section-inner">
+        <div class="fade-in">
+          <p class="section-label">Por que registrar</p>
+          <h2 class="section-title">
+            Ter CNPJ não é suficiente.<br />Só o INPI garante a exclusividade.
+          </h2>
+          <p class="section-sub">
+            Sem o registro, qualquer concorrente pode usar seu nome e você não
+            terá respaldo legal para impedir.
+          </p>
+        </div>
 
-    <div class="why-grid">
-      <div class="why-card fade-in">
-        <svg class="why-icon" viewBox="0 0 48 48" fill="none">
-          <circle cx="24" cy="24" r="20" stroke="#ff6a00" stroke-width="1.5"/>
-          <path d="M16 24l6 6 10-12" stroke="#ff6a00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <h3>CNPJ não protege sua marca</h3>
-        <p>O CNPJ registra sua empresa, não seu nome de marca. Você pode ter o CNPJ e outro empresário registrar sua marca no INPI antes de você.</p>
+        <div class="why-grid">
+          <div class="why-card fade-in">
+            <svg class="why-icon" viewBox="0 0 48 48" fill="none">
+              <circle
+                cx="24"
+                cy="24"
+                r="20"
+                stroke="#ff6a00"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16 24l6 6 10-12"
+                stroke="#ff6a00"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <h3>CNPJ não protege sua marca</h3>
+            <p>
+              O CNPJ registra sua empresa, não seu nome de marca. Você pode ter
+              o CNPJ e outro empresário registrar sua marca no INPI antes de
+              você.
+            </p>
+          </div>
+          <div class="why-card fade-in">
+            <svg class="why-icon" viewBox="0 0 48 48" fill="none">
+              <rect
+                x="10"
+                y="14"
+                width="28"
+                height="22"
+                rx="3"
+                stroke="#ff6a00"
+                stroke-width="1.5"
+              />
+              <path
+                d="M17 14V12a7 7 0 0114 0v2"
+                stroke="#ff6a00"
+                stroke-width="1.5"
+              />
+              <circle cx="24" cy="25" r="3" fill="#ff6a00" />
+            </svg>
+            <h3>Quem registra primeiro tem o direito</h3>
+            <p>
+              O sistema brasileiro adota o princípio da anterioridade: quem
+              protocola o pedido primeiro no INPI tem prioridade sobre o uso da
+              marca.
+            </p>
+          </div>
+          <div class="why-card fade-in">
+            <svg class="why-icon" viewBox="0 0 48 48" fill="none">
+              <path
+                d="M24 8L38 14v12c0 9-7 14-14 16C17 40 10 35 10 26V14L24 8z"
+                stroke="#ff6a00"
+                stroke-width="1.5"
+              />
+              <path
+                d="M18 24l4 4 8-8"
+                stroke="#ff6a00"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <h3>Evite disputas jurídicas</h3>
+            <p>
+              Com o registro em mãos, você pode acionar judicialmente quem usar
+              sua marca sem autorização, em todo o território nacional.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="why-card fade-in">
-        <svg class="why-icon" viewBox="0 0 48 48" fill="none">
-          <rect x="10" y="14" width="28" height="22" rx="3" stroke="#ff6a00" stroke-width="1.5"/>
-          <path d="M17 14V12a7 7 0 0114 0v2" stroke="#ff6a00" stroke-width="1.5"/>
-          <circle cx="24" cy="25" r="3" fill="#ff6a00"/>
-        </svg>
-        <h3>Quem registra primeiro tem o direito</h3>
-        <p>O sistema brasileiro adota o princípio da anterioridade: quem protocola o pedido primeiro no INPI tem prioridade sobre o uso da marca.</p>
-      </div>
-      <div class="why-card fade-in">
-        <svg class="why-icon" viewBox="0 0 48 48" fill="none">
-          <path d="M24 8L38 14v12c0 9-7 14-14 16C17 40 10 35 10 26V14L24 8z" stroke="#ff6a00" stroke-width="1.5"/>
-          <path d="M18 24l4 4 8-8" stroke="#ff6a00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <h3>Evite disputas jurídicas</h3>
-        <p>Com o registro em mãos, você pode acionar judicialmente quem usar sua marca sem autorização, em todo o território nacional.</p>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ===========================
+    <!-- ===========================
      HOW IT WORKS
 =========================== -->
-<section id="how">
-  <div class="section-inner">
-    <div class="fade-in" style="text-align:center; margin-bottom:80px">
-      <p class="section-label">Como funciona</p>
-      <h2 class="section-title">Três etapas para proteger<br>o que é seu</h2>
-    </div>
+    <section id="how">
+      <div class="section-inner">
+        <div class="fade-in" style="text-align: center; margin-bottom: 80px">
+          <p class="section-label">Como funciona</p>
+          <h2 class="section-title">
+            Três etapas para proteger<br />o que é seu
+          </h2>
+        </div>
 
-    <!-- Passos 1 e 2 -->
-    <div class="steps steps--two fade-in">
-      <div class="step">
-        <div class="step-num">
-          <svg class="step-icon" viewBox="0 0 28 28" fill="none">
-            <circle cx="14" cy="14" r="6" stroke="#ff6a00" stroke-width="1.5"/>
-            <path d="M14 4v3M14 21v3M4 14h3M21 14h3" stroke="#ff6a00" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
+        <!-- Passos 1 e 2 -->
+        <div class="steps steps--two fade-in">
+          <div class="step">
+            <div class="step-num">
+              <svg class="step-icon" viewBox="0 0 28 28" fill="none">
+                <circle
+                  cx="14"
+                  cy="14"
+                  r="6"
+                  stroke="#ff6a00"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M14 4v3M14 21v3M4 14h3M21 14h3"
+                  stroke="#ff6a00"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3>Busca de viabilidade</h3>
+            <p>
+              Realizamos uma análise completa da base do INPI para verificar se
+              o nome desejado está disponível para registro.
+            </p>
+          </div>
+          <div class="step">
+            <div class="step-num">
+              <svg class="step-icon" viewBox="0 0 28 28" fill="none">
+                <rect
+                  x="6"
+                  y="4"
+                  width="16"
+                  height="20"
+                  rx="2"
+                  stroke="#ff6a00"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M10 10h8M10 14h8M10 18h5"
+                  stroke="#ff6a00"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3>Protocolo no INPI</h3>
+            <p>
+              Cuidamos de toda a documentação e protocolo do pedido de registro
+              junto ao INPI, com a classe correta para seu negócio.
+            </p>
+          </div>
         </div>
-        <h3>Busca de viabilidade</h3>
-        <p>Realizamos uma análise completa da base do INPI para verificar se o nome desejado está disponível para registro.</p>
-      </div>
-      <div class="step">
-        <div class="step-num">
-          <svg class="step-icon" viewBox="0 0 28 28" fill="none">
-            <rect x="6" y="4" width="16" height="20" rx="2" stroke="#ff6a00" stroke-width="1.5"/>
-            <path d="M10 10h8M10 14h8M10 18h5" stroke="#ff6a00" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <h3>Protocolo no INPI</h3>
-        <p>Cuidamos de toda a documentação e protocolo do pedido de registro junto ao INPI, com a classe correta para seu negócio.</p>
-      </div>
-    </div>
 
-    <!-- Passo 3 — destaque com certificado -->
-    <div class="step-final fade-in">
-      <div class="step-final-content">
-        <div class="step-num" style="margin: 0 0 24px 0;">
-          <svg class="step-icon" viewBox="0 0 28 28" fill="none">
-            <path d="M14 4L17 11H24L18.5 15.5L20.5 23L14 18.5L7.5 23L9.5 15.5L4 11H11L14 4Z" stroke="#ff6a00" stroke-width="1.5" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <p class="step-final-num">Etapa 03</p>
-        <h3 class="step-final-title">Acompanhamento até a aprovação</h3>
-        <p class="step-final-desc">Monitoramos todo o processo e respondemos eventuais exigências do INPI. No final, você recebe o <strong>Certificado de Registro de Marca</strong> — o documento oficial que garante a exclusividade do seu nome.</p>
-        <ul class="step-final-list">
-          <li>Acompanhamento até a concessão do certificado</li>
-          <li>Validade de 10 anos, renovável indefinidamente</li>
-          <li>Proteção em todo o território nacional</li>
-          <li>Documento emitido diretamente pelo INPI</li>
-        </ul>
-      </div>
-      <div class="step-final-img">
-        <div class="cert-frame">
-          <img src="images/certificado.png" alt="Certificado de Registro de Marca — INPI" class="cert-img">
-          <div class="cert-badge">
-            <svg viewBox="0 0 40 40" fill="none" width="22" height="22">
-              <circle cx="20" cy="20" r="18" stroke="#ff6a00" stroke-width="2"/>
-              <path d="M12 20l6 6 10-10" stroke="#ff6a00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            Certificado oficial INPI
+        <!-- Passo 3 — destaque com certificado -->
+        <div class="step-final fade-in">
+          <div class="step-final-content">
+            <div class="step-num" style="margin: 0 0 24px 0">
+              <svg class="step-icon" viewBox="0 0 28 28" fill="none">
+                <path
+                  d="M14 4L17 11H24L18.5 15.5L20.5 23L14 18.5L7.5 23L9.5 15.5L4 11H11L14 4Z"
+                  stroke="#ff6a00"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <p class="step-final-num">Etapa 03</p>
+            <h3 class="step-final-title">Acompanhamento até a aprovação</h3>
+            <p class="step-final-desc">
+              Monitoramos todo o processo e respondemos eventuais exigências do
+              INPI. No final, você recebe o
+              <strong>Certificado de Registro de Marca</strong> — o documento
+              oficial que garante a exclusividade do seu nome.
+            </p>
+            <ul class="step-final-list">
+              <li>Acompanhamento até a concessão do certificado</li>
+              <li>Validade de 10 anos, renovável indefinidamente</li>
+              <li>Proteção em todo o território nacional</li>
+              <li>Documento emitido diretamente pelo INPI</li>
+            </ul>
+          </div>
+          <div class="step-final-img">
+            <div class="cert-frame">
+              <img
+                src="images/certificado.png"
+                alt="Certificado de Registro de Marca — INPI"
+                class="cert-img"
+              />
+              <div class="cert-badge">
+                <svg viewBox="0 0 40 40" fill="none" width="22" height="22">
+                  <circle
+                    cx="20"
+                    cy="20"
+                    r="18"
+                    stroke="#ff6a00"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M12 20l6 6 10-10"
+                    stroke="#ff6a00"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                Certificado oficial INPI
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ===========================
+    <!-- ===========================
      FOR WHO
 =========================== -->
-<section id="forwho">
-  <div class="section-inner">
-    <div class="fade-in">
-      <p class="section-label">Para quem é</p>
-      <h2 class="section-title">Ideal para quem<br>está construindo algo real</h2>
-      <p class="section-sub">De MEIs a startups em crescimento — qualquer negócio com identidade merece proteção.</p>
-    </div>
+    <section id="forwho">
+      <div class="section-inner">
+        <div class="fade-in">
+          <p class="section-label">Para quem é</p>
+          <h2 class="section-title">
+            Ideal para quem<br />está construindo algo real
+          </h2>
+          <p class="section-sub">
+            De MEIs a startups em crescimento — qualquer negócio com identidade
+            merece proteção.
+          </p>
+        </div>
 
-    <div class="who-grid fade-in">
-      <div class="who-card">
-        <svg class="who-icon" viewBox="0 0 40 40" fill="none">
-          <circle cx="20" cy="14" r="7" stroke="#ff6a00" stroke-width="1.5"/>
-          <path d="M8 34c0-6.627 5.373-12 12-12s12 5.373 12 12" stroke="#ff6a00" stroke-width="1.5" stroke-linecap="round"/>
-        </svg>
-        <h3>MEI</h3>
-        <p>Microempreendedores individuais que querem proteger seu negócio</p>
+        <div class="who-grid fade-in">
+          <div class="who-card">
+            <svg class="who-icon" viewBox="0 0 40 40" fill="none">
+              <circle
+                cx="20"
+                cy="14"
+                r="7"
+                stroke="#ff6a00"
+                stroke-width="1.5"
+              />
+              <path
+                d="M8 34c0-6.627 5.373-12 12-12s12 5.373 12 12"
+                stroke="#ff6a00"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+            </svg>
+            <h3>MEI</h3>
+            <p>
+              Microempreendedores individuais que querem proteger seu negócio
+            </p>
+          </div>
+          <div class="who-card">
+            <svg class="who-icon" viewBox="0 0 40 40" fill="none">
+              <rect
+                x="6"
+                y="10"
+                width="28"
+                height="20"
+                rx="3"
+                stroke="#ff6a00"
+                stroke-width="1.5"
+              />
+              <path
+                d="M13 22l4-4 4 4 6-6"
+                stroke="#ff6a00"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <h3>E-commerce</h3>
+            <p>
+              Lojas online que vendem em marketplaces e precisam de
+              exclusividade
+            </p>
+          </div>
+          <div class="who-card">
+            <svg class="who-icon" viewBox="0 0 40 40" fill="none">
+              <path
+                d="M20 8v6M20 26v6M8 20h6M26 20h6"
+                stroke="#ff6a00"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <circle
+                cx="20"
+                cy="20"
+                r="6"
+                stroke="#ff6a00"
+                stroke-width="1.5"
+              />
+            </svg>
+            <h3>Prestadores de serviço</h3>
+            <p>
+              Profissionais e agências que têm um nome no mercado para defender
+            </p>
+          </div>
+          <div class="who-card">
+            <svg class="who-icon" viewBox="0 0 40 40" fill="none">
+              <path
+                d="M20 8L34 14v10c0 7-5.6 11.2-14 14C11.6 35.2 6 31 6 24V14L20 8z"
+                stroke="#ff6a00"
+                stroke-width="1.5"
+              />
+            </svg>
+            <h3>Startups</h3>
+            <p>
+              Empresas em fase de captação que precisam proteger o ativo
+              intangível
+            </p>
+          </div>
+          <div class="who-card">
+            <svg class="who-icon" viewBox="0 0 40 40" fill="none">
+              <path
+                d="M10 30V18l10-8 10 8v12"
+                stroke="#ff6a00"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <rect
+                x="16"
+                y="22"
+                width="8"
+                height="8"
+                rx="1"
+                stroke="#ff6a00"
+                stroke-width="1.5"
+              />
+            </svg>
+            <h3>Empresas em crescimento</h3>
+            <p>
+              Negócios que estão se expandindo e precisam garantir a
+              exclusividade nacional
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="who-card">
-        <svg class="who-icon" viewBox="0 0 40 40" fill="none">
-          <rect x="6" y="10" width="28" height="20" rx="3" stroke="#ff6a00" stroke-width="1.5"/>
-          <path d="M13 22l4-4 4 4 6-6" stroke="#ff6a00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <h3>E-commerce</h3>
-        <p>Lojas online que vendem em marketplaces e precisam de exclusividade</p>
-      </div>
-      <div class="who-card">
-        <svg class="who-icon" viewBox="0 0 40 40" fill="none">
-          <path d="M20 8v6M20 26v6M8 20h6M26 20h6" stroke="#ff6a00" stroke-width="1.5" stroke-linecap="round"/>
-          <circle cx="20" cy="20" r="6" stroke="#ff6a00" stroke-width="1.5"/>
-        </svg>
-        <h3>Prestadores de serviço</h3>
-        <p>Profissionais e agências que têm um nome no mercado para defender</p>
-      </div>
-      <div class="who-card">
-        <svg class="who-icon" viewBox="0 0 40 40" fill="none">
-          <path d="M20 8L34 14v10c0 7-5.6 11.2-14 14C11.6 35.2 6 31 6 24V14L20 8z" stroke="#ff6a00" stroke-width="1.5"/>
-        </svg>
-        <h3>Startups</h3>
-        <p>Empresas em fase de captação que precisam proteger o ativo intangível</p>
-      </div>
-      <div class="who-card">
-        <svg class="who-icon" viewBox="0 0 40 40" fill="none">
-          <path d="M10 30V18l10-8 10 8v12" stroke="#ff6a00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-          <rect x="16" y="22" width="8" height="8" rx="1" stroke="#ff6a00" stroke-width="1.5"/>
-        </svg>
-        <h3>Empresas em crescimento</h3>
-        <p>Negócios que estão se expandindo e precisam garantir a exclusividade nacional</p>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ===========================
+    <!-- ===========================
      DUPLA GARANTIA
 =========================== -->
-<section id="garantia">
-  <div class="section-inner">
-    <div class="fade-in" style="text-align:center; margin-bottom: 48px;">
-      <p class="section-label">Nosso compromisso</p>
-      <h2 class="section-title">Dupla garantia para<br>você registrar com segurança</h2>
-      <p class="section-sub" style="text-align:center; max-width:520px; margin: 0 auto;">Assumimos o risco junto com você. Se o pedido for negado, corremos por nossa conta.</p>
-    </div>
-    <div class="garantia-grid fade-in">
-      <div class="garantia-selo">
-        <div class="garantia-selo-icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
-            <path d="M24 4L6 12v14c0 10.5 7.7 20.3 18 23 10.3-2.7 18-12.5 18-23V12L24 4z" fill="rgba(255,106,0,0.12)" stroke="#ff6a00" stroke-width="1.5"/>
-            <path d="M16 24l6 6 10-10" stroke="#ff6a00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
+    <section id="garantia">
+      <div class="section-inner">
+        <div class="fade-in" style="text-align: center; margin-bottom: 48px">
+          <p class="section-label">Nosso compromisso</p>
+          <h2 class="section-title">
+            Dupla garantia para<br />você registrar com segurança
+          </h2>
+          <p
+            class="section-sub"
+            style="text-align: center; max-width: 520px; margin: 0 auto"
+          >
+            Assumimos o risco junto com você. Se o pedido for negado, corremos
+            por nossa conta.
+          </p>
         </div>
-        <div class="garantia-selo-num">01</div>
-        <h3 class="garantia-selo-title">Análise prévia gratuita</h3>
-        <p class="garantia-selo-desc">Antes de protocolar qualquer pedido, verificamos a viabilidade do registro na base do INPI. Você só paga quando temos segurança de prosseguir.</p>
-      </div>
-      <div class="garantia-divider"></div>
-      <div class="garantia-selo garantia-selo--destaque">
-        <div class="garantia-selo-icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
-            <path d="M24 4L6 12v14c0 10.5 7.7 20.3 18 23 10.3-2.7 18-12.5 18-23V12L24 4z" fill="rgba(255,106,0,0.18)" stroke="#ff6a00" stroke-width="2"/>
-            <path d="M18 24l4 4 8-8" stroke="#ff6a00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M22 28l4 4 8-8" stroke="#ff6a00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
-          </svg>
+        <div class="garantia-grid fade-in">
+          <div class="garantia-selo">
+            <div class="garantia-selo-icon">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+              >
+                <path
+                  d="M24 4L6 12v14c0 10.5 7.7 20.3 18 23 10.3-2.7 18-12.5 18-23V12L24 4z"
+                  fill="rgba(255,106,0,0.12)"
+                  stroke="#ff6a00"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M16 24l6 6 10-10"
+                  stroke="#ff6a00"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="garantia-selo-num">01</div>
+            <h3 class="garantia-selo-title">Análise prévia gratuita</h3>
+            <p class="garantia-selo-desc">
+              Antes de protocolar qualquer pedido, verificamos a viabilidade do
+              registro na base do INPI. Você só paga quando temos segurança de
+              prosseguir.
+            </p>
+          </div>
+          <div class="garantia-divider"></div>
+          <div class="garantia-selo garantia-selo--destaque">
+            <div class="garantia-selo-icon">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+              >
+                <path
+                  d="M24 4L6 12v14c0 10.5 7.7 20.3 18 23 10.3-2.7 18-12.5 18-23V12L24 4z"
+                  fill="rgba(255,106,0,0.18)"
+                  stroke="#ff6a00"
+                  stroke-width="2"
+                />
+                <path
+                  d="M18 24l4 4 8-8"
+                  stroke="#ff6a00"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M22 28l4 4 8-8"
+                  stroke="#ff6a00"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  opacity="0.5"
+                />
+              </svg>
+            </div>
+            <div class="garantia-selo-num garantia-selo-num--destaque">02</div>
+            <h3 class="garantia-selo-title">
+              Se for negado, o próximo é por nossa conta
+            </h3>
+            <p class="garantia-selo-desc">
+              Se o seu pedido de registro for indeferido, o pedido de uma nova
+              marca é por nossa conta. Sem custos de honorários adicionais. (A
+              taxa oficial do INPI segue sendo de responsabilidade do cliente.)
+            </p>
+            <div class="garantia-tag">Garantia exclusiva</div>
+          </div>
         </div>
-        <div class="garantia-selo-num garantia-selo-num--destaque">02</div>
-        <h3 class="garantia-selo-title">Se for negado, o próximo é por nossa conta</h3>
-        <p class="garantia-selo-desc">Se o seu pedido de registro for indeferido, o pedido de uma nova marca é por nossa conta. Sem custos de honorários adicionais. (A taxa oficial do INPI segue sendo de responsabilidade do cliente.)</p>
-        <div class="garantia-tag">Garantia exclusiva</div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ===========================
+    <!-- ===========================
      CTA SECTION
 =========================== -->
-<section id="cta">
-  <div class="cta-inner fade-in">
-    <p class="section-label" style="text-align:center">Comece agora</p>
-    <h2 class="section-title" style="text-align:center">Descubra agora se sua marca<br>pode ser registrada.</h2>
-    <a href="#hero" class="cta-btn">Verificar minha marca</a>
-  </div>
-</section>
+    <section id="cta">
+      <div class="cta-inner fade-in">
+        <p class="section-label" style="text-align: center">Comece agora</p>
+        <h2 class="section-title" style="text-align: center">
+          Descubra agora se sua marca<br />pode ser registrada.
+        </h2>
+        <a href="#hero" class="cta-btn">Verificar minha marca</a>
+      </div>
+    </section>
 
-<!-- ===========================
+    <!-- ===========================
      FAQ
 =========================== -->
-<section id="faq">
-  <div class="section-inner">
-    <div class="fade-in">
-      <p class="section-label">Dúvidas frequentes</p>
-      <h2 class="section-title">Perguntas que todo<br>empreendedor faz</h2>
-    </div>
+    <section id="faq">
+      <div class="section-inner">
+        <div class="fade-in">
+          <p class="section-label">Dúvidas frequentes</p>
+          <h2 class="section-title">
+            Perguntas que todo<br />empreendedor faz
+          </h2>
+        </div>
 
-    <div class="faq-list fade-in">
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">
-          Quanto custa registrar uma marca?
-          <svg class="faq-arrow" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-        </button>
-        <div class="faq-a">O custo varia conforme o porte da empresa e o número de classes desejadas. MEIs e microempresas têm desconto nas taxas do INPI. Além das taxas governamentais, cobramos pelos serviços de análise, protocolo e acompanhamento. Entre em contato para receber um orçamento personalizado.</div>
+        <div class="faq-list fade-in">
+          <div class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              Quanto custa registrar uma marca?
+              <svg class="faq-arrow" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M5 7.5l5 5 5-5"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="faq-a">
+              O custo varia conforme o porte da empresa e o número de classes
+              desejadas. MEIs e microempresas têm desconto nas taxas do INPI.
+              Além das taxas governamentais, cobramos pelos serviços de análise,
+              protocolo e acompanhamento. Entre em contato para receber um
+              orçamento personalizado.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              Quanto tempo demora o processo?
+              <svg class="faq-arrow" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M5 7.5l5 5 5-5"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="faq-a">
+              O processo de registro no INPI costuma levar entre 18 e 24 meses
+              até a concessão final do certificado. No entanto, assim que o
+              pedido é protocolado, sua marca já está com proteção preliminar —
+              o que garante anterioridade de data desde o primeiro dia.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              Posso registrar uma marca sendo MEI?
+              <svg class="faq-arrow" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M5 7.5l5 5 5-5"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="faq-a">
+              Sim. MEIs têm o direito de registrar marcas no INPI e ainda contam
+              com desconto nas taxas oficiais. O registro é feito no CPF ou CNPJ
+              do MEI e confere os mesmos direitos de exclusividade que empresas
+              de maior porte.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              O registro vale para todo o Brasil?
+              <svg class="faq-arrow" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M5 7.5l5 5 5-5"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="faq-a">
+              Sim. O registro de marca concedido pelo INPI tem validade em todo
+              o território nacional, com duração de 10 anos, renovável por
+              períodos iguais indefinidamente.
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">
-          Quanto tempo demora o processo?
-          <svg class="faq-arrow" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-        </button>
-        <div class="faq-a">O processo de registro no INPI costuma levar entre 18 e 24 meses até a concessão final do certificado. No entanto, assim que o pedido é protocolado, sua marca já está com proteção preliminar — o que garante anterioridade de data desde o primeiro dia.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">
-          Posso registrar uma marca sendo MEI?
-          <svg class="faq-arrow" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-        </button>
-        <div class="faq-a">Sim. MEIs têm o direito de registrar marcas no INPI e ainda contam com desconto nas taxas oficiais. O registro é feito no CPF ou CNPJ do MEI e confere os mesmos direitos de exclusividade que empresas de maior porte.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">
-          O registro vale para todo o Brasil?
-          <svg class="faq-arrow" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-        </button>
-        <div class="faq-a">Sim. O registro de marca concedido pelo INPI tem validade em todo o território nacional, com duração de 10 anos, renovável por períodos iguais indefinidamente.</div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ===========================
+    <!-- ===========================
      SOBRE A LOMAZY
 =========================== -->
-<section id="sobre">
-  <div class="section-inner">
-    <div class="sobre-layout fade-in">
+    <section id="sobre">
+      <div class="section-inner">
+        <div class="sobre-layout fade-in">
+          <div class="sobre-texto">
+            <p class="section-label">Quem somos</p>
+            <h2 class="section-title">
+              Proteção jurídica de marcas com<br />análise técnica especializada
+            </h2>
+            <p class="sobre-desc">
+              A Lomazy atua na proteção jurídica de marcas, auxiliando empresas
+              e empreendedores a garantirem exclusividade e segurança no uso de
+              seus nomes. Nosso trabalho envolve análise técnica e
+              acompanhamento completo do processo de registro junto ao INPI.
+            </p>
+            <p class="sobre-desc">
+              Acreditamos que a marca é um dos principais ativos de um negócio —
+              e tratamos cada pedido com o rigor que esse ativo merece.
+            </p>
 
-      <div class="sobre-texto">
-        <p class="section-label">Quem somos</p>
-        <h2 class="section-title">Proteção jurídica de marcas com<br>análise técnica especializada</h2>
-        <p class="sobre-desc">A Lomazy atua na proteção jurídica de marcas, auxiliando empresas e empreendedores a garantirem exclusividade e segurança no uso de seus nomes. Nosso trabalho envolve análise técnica e acompanhamento completo do processo de registro junto ao INPI.</p>
-        <p class="sobre-desc">Acreditamos que a marca é um dos principais ativos de um negócio — e tratamos cada pedido com o rigor que esse ativo merece.</p>
-
-        <div class="sobre-responsavel">
-          <div class="sobre-foto-wrap">
-            <img src="images/davi.png" alt="Davi Lima — Advogado especialista em propriedade intelectual" class="sobre-foto">
+            <div class="sobre-responsavel">
+              <div class="sobre-foto-wrap">
+                <img
+                  src="images/davi.png"
+                  alt="Davi Lima — Advogado especialista em propriedade intelectual"
+                  class="sobre-foto"
+                />
+              </div>
+              <div class="sobre-info">
+                <p class="sobre-cargo">Responsável técnico</p>
+                <p class="sobre-nome">Davi Lima</p>
+                <p class="sobre-role">
+                  Advogado especialista em propriedade intelectual, Davi conduz
+                  pessoalmente cada análise de viabilidade e acompanha os
+                  processos de registro junto ao INPI — garantindo rigor técnico
+                  e segurança jurídica em cada etapa.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="sobre-info">
-            <p class="sobre-cargo">Responsável técnico</p>
-            <p class="sobre-nome">Davi Lima</p>
-            <p class="sobre-role">Advogado especialista em propriedade intelectual, Davi conduz pessoalmente cada análise de viabilidade e acompanha os processos de registro junto ao INPI — garantindo rigor técnico e segurança jurídica em cada etapa.</p>
+
+          <div class="sobre-numeros">
+            <div class="sobre-num-item">
+              <span class="sobre-num">10+</span>
+              <span class="sobre-num-label"
+                >Anos de experiência em propriedade intelectual</span
+              >
+            </div>
+            <div class="sobre-num-item">
+              <span class="sobre-num">500+</span>
+              <span class="sobre-num-label"
+                >Marcas registradas com sucesso</span
+              >
+            </div>
+            <div class="sobre-num-item">
+              <span class="sobre-num">100%</span>
+              <span class="sobre-num-label"
+                >Acompanhamento até a concessão do certificado</span
+              >
+            </div>
+            <div class="sobre-num-item">
+              <span class="sobre-num">INPI</span>
+              <span class="sobre-num-label"
+                >Processo oficial junto ao Instituto Nacional da Propriedade
+                Industrial</span
+              >
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="sobre-numeros">
-        <div class="sobre-num-item">
-          <span class="sobre-num">10+</span>
-          <span class="sobre-num-label">Anos de experiência em propriedade intelectual</span>
-        </div>
-        <div class="sobre-num-item">
-          <span class="sobre-num">500+</span>
-          <span class="sobre-num-label">Marcas registradas com sucesso</span>
-        </div>
-        <div class="sobre-num-item">
-          <span class="sobre-num">100%</span>
-          <span class="sobre-num-label">Acompanhamento até a concessão do certificado</span>
-        </div>
-        <div class="sobre-num-item">
-          <span class="sobre-num">INPI</span>
-          <span class="sobre-num-label">Processo oficial junto ao Instituto Nacional da Propriedade Industrial</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ===========================
+    <!-- ===========================
      WHATSAPP FLUTUANTE
 =========================== -->
-<a href="https://wa.me/5581995689180?text=Olá!%20Quero%20registrar%20minha%20marca%20no%20INPI." 
-   class="whatsapp-float" target="_blank" rel="noopener" title="Falar no WhatsApp">
-  <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
-    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-  </svg>
-  <span class="whatsapp-float-label">Fale conosco</span>
-</a>
+    <a
+      href="https://wa.me/5581995689180?text=Olá!%20Quero%20registrar%20minha%20marca%20no%20INPI."
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener"
+      title="Falar no WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+        />
+      </svg>
+      <span class="whatsapp-float-label">Fale conosco</span>
+    </a>
 
-<!-- ===========================
+    <!-- ===========================
      FOOTER
 =========================== -->
-<footer>
-  <div class="footer-inner">
-    <div>
-      <a href="#" class="logo">
-        <img src="images/logo.png" alt="Lomazy" class="logo-img logo-img--footer">
-      </a>
-      <p class="footer-desc">Registro de marcas com agilidade, segurança e acompanhamento especializado junto ao INPI.</p>
-    </div>
-    <div class="footer-links">
-      <a href="https://wa.me/5581995689180" class="footer-link" target="_blank">WhatsApp</a>
-      <a href="#why" class="footer-link">Por que registrar</a>
-      <a href="#how" class="footer-link">Como funciona</a>
-      <a href="#faq" class="footer-link">Perguntas frequentes</a>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <span>© 2024 LOMAZY. Todos os direitos reservados.</span>
-    <span>Registro de Marcas no Brasil — INPI</span>
-  </div>
-</footer>
+    <footer>
+      <div class="footer-inner">
+        <div>
+          <a href="#" class="logo">
+            <img
+              src="images/logo.png"
+              alt="Lomazy"
+              class="logo-img logo-img--footer"
+            />
+          </a>
+          <p class="footer-desc">
+            Registro de marcas com agilidade, segurança e acompanhamento
+            especializado junto ao INPI.
+          </p>
+        </div>
+        <div class="footer-links">
+          <a
+            href="https://wa.me/5581995689180"
+            class="footer-link"
+            target="_blank"
+            >WhatsApp</a
+          >
+          <a href="#why" class="footer-link">Por que registrar</a>
+          <a href="#how" class="footer-link">Como funciona</a>
+          <a href="#faq" class="footer-link">Perguntas frequentes</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2024 LOMAZY. Todos os direitos reservados.</span>
+        <span>Registro de Marcas no Brasil — INPI</span>
+      </div>
+    </footer>
 
-<!-- ===========================
+    <!-- ===========================
      JAVASCRIPT
 =========================== -->
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
