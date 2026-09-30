@@ -207,7 +207,7 @@ function submitLeadForm() {
   if (!valid) return;
 
   // Envia lead por email (Google Apps Script)
-  fetch('https://script.google.com/macros/s/AKfycbzwfMfL7blpGDSfgb0qdrXaHSnC546jCSTUu_SlZ-zTA0dyY-64vpLeRIecaBziA7QEhw/exec', {
+  fetch('https://script.google.com/macros/s/AKfycbzbKOCxAIaTg_iwsRW58Gg-n4DFNBBeDTaQBJ6MQ2XVTcRkkQdwTvVqGrjWPGyZJKGE/exec', {
     method: 'POST',
     mode: 'no-cors',
     headers: { 'Content-Type': 'text/plain' },
