@@ -263,49 +263,6 @@ body {
 }
 
 /* ===========================
-   WHATSAPP FLUTUANTE
-=========================== */
-.whatsapp-float {
-  position: fixed;
-  bottom: 28px;
-  right: 28px;
-  z-index: 999;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  background: #25d366;
-  color: #fff;
-  border-radius: 100px;
-  padding: 13px 20px 13px 16px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 600;
-  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.35);
-  transition:
-    transform 0.2s,
-    box-shadow 0.2s;
-}
-
-.whatsapp-float:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 28px rgba(37, 211, 102, 0.45);
-}
-
-.whatsapp-float-label {
-  white-space: nowrap;
-}
-
-@media (max-width: 480px) {
-  .whatsapp-float {
-    padding: 14px;
-    border-radius: 50%;
-  }
-  .whatsapp-float-label {
-    display: none;
-  }
-}
-
-/* ===========================
    DUPLA GARANTIA
 =========================== */
 #garantia {
