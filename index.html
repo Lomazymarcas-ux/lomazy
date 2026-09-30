@@ -7,7 +7,7 @@
     <title>LOMAZY — Registro de Marcas no INPI | Proteja Sua Marca</title>
     <meta
       name="description"
-      content="Verifique gratuitamente se seu nome de marca pode ser registrado no INPI. A Lomazy cuida de todo o processo de registro de marcas no Brasil com agilidade e segurança."
+      content="Verifique gratuitamente se sua marca pode ser registrada no INPI. A Lomazy cuida de todo o processo — análise, protocolo e acompanhamento."
     />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://lomazy.com.br/" />
@@ -21,9 +21,14 @@
     />
     <meta
       property="og:description"
-      content="Verifique gratuitamente se seu nome de marca pode ser registrado no INPI. Registro rápido, seguro e sem burocracia."
+      content="Verifique gratuitamente se sua marca pode ser registrada no INPI. Análise gratuita, processo seguro e acompanhamento até a aprovação."
     />
-    <meta property="og:image" content="https://lomazy.com.br/images/logo.png" />
+    <meta
+      property="og:image"
+      content="https://lomazy.com.br/images/og-cover.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:site_name" content="Lomazy" />
 
@@ -32,33 +37,74 @@
     <meta name="twitter:title" content="LOMAZY — Registro de Marcas no INPI" />
     <meta
       name="twitter:description"
-      content="Verifique gratuitamente se seu nome de marca pode ser registrado no INPI."
+      content="Verifique gratuitamente se sua marca pode ser registrada no INPI. Análise gratuita e processo seguro."
     />
     <meta
       name="twitter:image"
-      content="https://lomazy.com.br/images/logo.png"
+      content="https://lomazy.com.br/images/og-cover.jpg"
     />
 
-    <!-- JSON-LD Structured Data -->
+    <!-- JSON-LD: LegalService -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "LegalService",
         "name": "Lomazy",
         "url": "https://lomazy.com.br",
-        "logo": "https://lomazy.com.br/images/logo.png",
+        "logo": "https://lomazy.com.br/images/logo.webp",
+        "image": "https://lomazy.com.br/images/og-cover.jpg",
         "description": "Plataforma especializada em registro de marcas no INPI Brasil. Verificação gratuita de disponibilidade e acompanhamento completo do processo.",
-        "areaServed": {
-          "@type": "Country",
-          "name": "Brasil"
-        },
+        "areaServed": { "@type": "Country", "name": "Brasil" },
         "serviceType": "Registro de Marcas",
+        "priceRange": "$$",
+        "knowsLanguage": "pt-BR",
         "availableChannel": {
           "@type": "ServiceChannel",
           "serviceUrl": "https://lomazy.com.br",
           "servicePhone": "+5581995689180"
-        },
-        "sameAs": []
+        }
+      }
+    </script>
+
+    <!-- JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Quanto custa registrar uma marca?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O custo varia conforme o porte da empresa e o número de classes desejadas. MEIs e microempresas têm desconto nas taxas do INPI. Além das taxas governamentais, cobramos pelos serviços de análise, protocolo e acompanhamento. Entre em contato para receber um orçamento personalizado."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quanto tempo demora o processo de registro no INPI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O processo de registro no INPI costuma levar entre 18 e 24 meses até a concessão final do certificado. No entanto, assim que o pedido é protocolado, sua marca já está com proteção preliminar — o que garante anterioridade de data desde o primeiro dia."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Posso registrar uma marca sendo MEI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim. MEIs têm o direito de registrar marcas no INPI e ainda contam com desconto nas taxas oficiais. O registro é feito no CPF ou CNPJ do MEI e confere os mesmos direitos de exclusividade que empresas de maior porte."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O registro de marca vale para todo o Brasil?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim. O registro de marca concedido pelo INPI tem validade em todo o território nacional, com duração de 10 anos, renovável por períodos iguais indefinidamente."
+            }
+          }
+        ]
       }
     </script>
 
