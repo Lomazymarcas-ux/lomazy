@@ -76,7 +76,7 @@
       href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260918" />
+    <link rel="stylesheet" href="styles.css?v=20260929" />
 
     <!-- Google tag (gtag.js) -->
     <script
@@ -385,24 +385,35 @@
         <!-- /hero-left -->
 
         <div class="hero-right">
-          <!-- SIMULADOR: 3 etapas -->
           <div class="search-box" id="simulator">
-            <!-- ETAPA 1: Formulário de captura -->
             <div id="stage-form">
               <div class="sim-header">
                 <p class="sim-step-label">
-                  Preencha para verificar gratuitamente
+                  Fale com um especialista gratuitamente
                 </p>
               </div>
-              <div class="form-row">
+              <div class="form-row form-row--single">
                 <div class="form-group">
                   <label>Nome</label>
                   <input
                     type="text"
                     id="f-nome"
-                    placeholder="Seu nome completo"
+                    placeholder="Digite seu nome"
                     autocomplete="name"
                     name="name"
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>E-mail</label>
+                  <input
+                    type="email"
+                    id="f-email"
+                    placeholder="seu@email.com"
+                    autocomplete="email"
+                    name="email"
+                    inputmode="email"
                   />
                 </div>
                 <div class="form-group">
@@ -418,107 +429,32 @@
                   />
                 </div>
               </div>
-              <div class="form-row">
-                <div class="form-group">
-                  <label>Nome da marca</label>
-                  <input
-                    type="text"
-                    id="f-marca"
-                    placeholder="Nome que deseja registrar"
-                  />
-                </div>
-                <div class="form-group">
-                  <label>Área de atuação</label>
-                  <select id="f-area">
-                    <option value="" disabled selected>
-                      Selecione sua área
-                    </option>
-                    <option>Moda e vestuário</option>
-                    <option>Alimentação e bebidas</option>
-                    <option>Tecnologia e software</option>
-                    <option>Saúde e beleza</option>
-                    <option>Educação</option>
-                    <option>E-commerce</option>
-                    <option>Serviços profissionais</option>
-                    <option>Indústria e comércio</option>
-                    <option>Entretenimento</option>
-                    <option>Outra</option>
-                  </select>
-                </div>
-              </div>
               <button class="form-submit" onclick="submitLeadForm()">
-                Verificar disponibilidade da minha marca
+                Quero registrar minha marca
               </button>
               <p class="form-privacy">
-                Seus dados são usados apenas para enviar sua análise. Sem spam.
+                Seus dados são usados apenas para entrarmos em contato. Sem
+                spam.
               </p>
             </div>
 
-            <!-- ETAPA 2: Loading animado -->
-            <div id="stage-loading" style="display: none">
-              <div class="sim-header">
-                <p class="sim-step-label">Consultando a base do INPI</p>
-                <p class="sim-step-title">
-                  Analisando <span id="loading-brand-name"></span>...
-                </p>
+            <div id="stage-success" class="result-ok" style="display: none">
+              <div class="result-top">
+                <div class="result-badge">Dados recebidos</div>
               </div>
-              <div
-                class="search-loading"
-                style="display: block; margin-top: 16px"
+              <div class="result-title">Continue a conversa no WhatsApp</div>
+              <div class="result-note">
+                Abrimos uma conversa com um especialista da Lomazy no WhatsApp.
+                Se ela não abriu automaticamente, clique no botão abaixo.
+              </div>
+              <a
+                id="success-whats-btn"
+                class="form-submit form-submit--link"
+                href="https://wa.me/5581995689180"
+                target="_blank"
+                rel="noopener"
+                >Abrir conversa no WhatsApp</a
               >
-                <div class="loading-step" id="step1">
-                  <div class="loading-spinner" id="spinner1"></div>
-                  <div class="loading-check" id="check1"></div>
-                  Consultando base do INPI...
-                </div>
-                <div class="loading-step" id="step2">
-                  <div
-                    class="loading-spinner"
-                    id="spinner2"
-                    style="display: none"
-                  ></div>
-                  <div class="loading-check" id="check2"></div>
-                  Verificando registros idênticos...
-                </div>
-                <div class="loading-step" id="step3">
-                  <div
-                    class="loading-spinner"
-                    id="spinner3"
-                    style="display: none"
-                  ></div>
-                  <div class="loading-check" id="check3"></div>
-                  Analisando marcas semelhantes...
-                </div>
-              </div>
-            </div>
-
-            <!-- ETAPA 3: Resultado -->
-            <div id="stage-result" style="display: none">
-              <div class="search-result" id="search-result">
-                <div class="result-top">
-                  <div class="result-badge" id="result-badge"></div>
-                  <span class="result-brand-tag"
-                    >Marca: <strong id="result-brand-tag"></strong
-                  ></span>
-                </div>
-                <div class="result-title" id="result-title"></div>
-                <div class="result-note" id="result-note"></div>
-                <div class="result-actions">
-                  <a
-                    id="result-whats-btn"
-                    href="https://wa.me/5581995689180"
-                    target="_blank"
-                    class="result-cta-btn result-cta-primary"
-                    >Falar com especialista no WhatsApp</a
-                  >
-                  <button
-                    class="result-cta-btn result-cta-secondary"
-                    onclick="resetSimulator()"
-                  >
-                    Verificar outra marca
-                  </button>
-                </div>
-              </div>
             </div>
           </div>
           <!-- /search-box -->
@@ -1188,6 +1124,6 @@
     <!-- ===========================
      JAVASCRIPT
 =========================== -->
-    <script src="script.js"></script>
+    <script src="script.js?v=20260929"></script>
   </body>
 </html>
